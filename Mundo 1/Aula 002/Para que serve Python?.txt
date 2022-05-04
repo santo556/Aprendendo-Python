@@ -1,0 +1,30 @@
+<> Fase 2 
+        <>Curso de Python
+            <> Para que serve o Python?
+    <> De onde vem o Python?
+<> História
+    < 1982 em Amsterdam Holanda onde fica o CWI (CENTRO DE MATEMÁTICA E CIÊNCIA DA COMPUTAÇÃO)
+    trabalha o Guido Van Hossum.>
+    < 1989 Van Hossum e seu colegas resolveram batizar o seu programa com o nome
+    de Python homenagiando seu programa de humor 
+    favorito o (Monty Python's Flying Circus)>
+    < 1995 Van Hossum acabou saindo da Holanda e indo para os EUA que
+    acabou lançando o projeto CP4E > 
+    <2001 Surgi a funadação python (python SFTWARE FOUNDATION)>
+    <Hoje em dia Psf é opoiada por um monti de empresas (Microsoft,
+    Google e a brasileira globo.com)>
+    <Sistemas que o python vem pre instalado (Amiga, NetBSD, MacOS e Linux)>
+    <De todos sistemas operacionais é o Windows>
+    <Com o sucesso da linguagem foi tanta que em 2005 ele foi
+    trabalhar no Google>
+    <Em 2013 ele saiu do Google e foi trabalhar no Dropbox>
+    <Python é>
+        1° - linguagem de propósito geral
+        2° - fácil e intuitiva
+        3° - multiplataforma
+        4° - batteres included
+        5° - livre
+        6° - organizada
+        7° - orientada a objetos
+        8° - muitas bibliotecas
+=====================================

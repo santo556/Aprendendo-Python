@@ -1,0 +1,215 @@
+					DESAFIOS
+=========================================================================
+Desafio 001
+print('Ol�, Mundo! ')
+print('Programar � muito importante. ')
+=========================================================================
+Desafio 002
+print('==============Respondendo a Usu�rio===============')
+nome = input('Qual � seu nome ? ')
+print('Muito prazer em te conhecer, {}! '.format(nome))
+print('Mas que nome lindo voc� tem ! ')
+=========================================================================
+Desafio 003
+print('-------------Somando dois n�meros--------------')
+n1 = int(input('Digite um n�mero: '))
+n2 = int(input(Digite outro: '))
+s = n1 + n2
+print('A soma entre {} e {} vale {}. '.format(n1, n2, s))
+=========================================================================
+Desafio 004
+=========================================================================
+print('Dissecando uma Vari�vel')
+a = input('Digite algo: ')
+print('O tipo primitivo desse valor �. ', type(a))
+print('S� tem espa�o? ', a.isspace())
+print('� um n�mero? ', a.isnumeric())      
+print('� alfab�tico? ', a.isalpha())
+print('� alfanum�rico? ', a.isalnum())
+print('Est� em mai�sculas? ', a.isupper())
+print('Est� em min�sculas? ', a.islower())
+print('Est� capitalizada? ', a.istitle())
+=========================================================================
+
+Desafio 005
+=========================================================================
+print('Antecessor e Sucessor')
+n = int(input('Digite um n�mero: '))
+#a = n  - 1
+#s = n + 1
+print('Analizando o valor de {} o seu antecessor � {} e seu sucessor � {} ! '.format(n,(n -1), (n + 1)))
+=========================================================================
+
+Desafio 006
+=========================================================================
+
+print('Dobro, Triplo, Ra�z Quadrada')
+n = int(input('Informe um valor: '))
+d = n * 2
+t = n * 3
+r = n ** (1/2)
+print('O dobro de {} vale {} ! '.format(n, d))
+print('O triplo de {} vale {} ! '.format(n, t))
+print('A ra�z quadrada de {} � igual a {:.2f} ! '.format(n, r))
+=========================================================================
+Desafio 007
+=========================================================================
+
+print('Calculando M�dia')
+n1 = float(input('A primeira nota do aluno: '))
+n2 = float(input('A segunda nota �: '))
+m = (n1 + n2) / 2
+print('A m�dia entre {:.1f} e {:.1f} � igual a {:.1f}. '.format(n1, n2, m))
+=========================================================================
+Desafio 008
+
+=========================================================================
+
+print('Conversor de Medidas')
+medida = float(input('Calcule uma dist�ncia em metros: '))
+cm = medida * 100
+mm = medida * 1000
+dm = medida * 10
+km = medida * 1000
+hm = medida * 100
+dam = medida * 10
+print('A medida de {}m corresponde {}dm e {}km. '.format(medida, dm, km))
+print('A medida de {}m vale {}hm e {}dam. '.format(medida, hm, dam))
+print('A medida de {}m corresponde a {}cm e {}mm. '.format(medida, cm, mm))
+=========================================================================
+Desafio 009
+
+=========================================================================
+
+print('Tabuada')
+num = int(input('Escreva um n�mero para ver a tabuada: '))
+print('=' * 12)
+print('{} * {:2} = {}. '.format(num, 1, num * 1))
+print('{} * {:2} = {}. '.format(num, 2, num * 2))
+print('{} * {:2} = {}. '.format(num, 3, num * 3))
+print('{} * {:2} = {}. '.format(num, 4, num * 4))
+print('{} * {:2} = {}. '.format(num, 5, num * 5))
+print('{} * {:2} = {}. '.format(num, 6, num * 6))
+print('{} * {:2} = {}. '.format(num, 7, num * 7))
+print('{} * {:2} = {}. '.format(num, 8, num * 8))
+print('{} * {:2} = {}. '.format(num, 9, num * 9))
+print('{} * {:2} = {}. '.format(num, 10, num * 10))
+print('=' *12)
+========================================================================
+Desafio 010
+
+========================================================================
+print('Conversor de Moedas')
+print('-' * 20)
+real = float(input('Quantos reais voc� tem na sua carteira ? R$ '))
+dolar = real / 3.70
+euro = real / 4.36
+print('Com R${:.2f}, voc� pode comprar E{:.2f}. '.format(real, euro))
+print('Com R${:.2f}, voc� pode comprar US${:.2f}. '.format(real, dolar))
+=========================================================================
+
+Desafio 011
+=========================================================================
+print('------------------------Pintando Parede---------------------------')
+print('=' * 20)
+larg = float(input('A largura da parede �: '))
+alt = float(input('A altura �: '))
+area = larg * alt
+print('As medidas dessa parede vale {} x {} e sua �rea {}m�. '.format(larg, alt, area))
+tinta = area / 2
+print('Para essa parede, voc� precisar� de {} litros de tinta. '.format(tinta))
+print('=' * 20)
+==========================================================================
+
+Desafio 012
+==========================================================================
+print('-------Calculando Desconto-------')
+preco = float(input('Qual o pre�o do produto? R$ '))
+novo = preco - (preco * 5 / 100)
+print('O produto que custava R${:.2f} com 5% desconto passara a custar R${:.2f}. '.format(preco, novo))
+==========================================================================
+
+Desafio 013
+==========================================================================
+print('---Reajuste Salarial---')
+salario = float(input('Qual � o atual sal�rio? R$ '))
+novo = salario + (salario * 15 / 100)
+print('O funcion�rio ganhava R${:.2f} e agora com 15% de aumento passara a ganharR${:.2f}. '.format(salario, novo))
+===========================================================================
+
+Desafio 014
+===========================================================================
+print(' Convertendo Temperatura ')
+c = float(input(' Digite a temperatura �C: '))
+f = ((9 * c) / 5)+32
+print(' A temperatura de {} �C correspondente a {} �F! '.format(c, f))
+===========================================================================
+Desafio 015
+===========================================================================
+print('Aluguel do Carro')
+dias = int(input(' Quantos dias alugados ? '))
+km = float(input('Quantos km rodados ? '))
+pago = (dias * 60) + (km * 0,15)
+print(' O total a pagar � de R${:.2f} '.format(pago))
+===========================================================================
+Desafio 016
+===========================================================================
+import math
+num = float(input(' Digite um valor: '))
+print(' O valor digitado de {} e a sua por��o inteira foi {}. '.format(num, math.trunc(num)))
+============================================================================
+Desafio 017
+============================================================================
+co = float(input(' Comprimento do cateto oposto: '))
+ca = float(input(' Comprimento do cateto adjacente: '))
+hi = (co ** 2 + ca **2) ** (1/2)
+print(' A hipotenusa vai medir {:.2f} '.format(hi))
+============================================================================
+Desafio 018
+============================================================================
+import math
+angulo = float(input(' Digite o �ngulo que voc� deseja: '))
+seno = math.sin(math. radians(angulo))
+print(' O �ngulo de {} tem o seno de {:.2f} '.format(angulo, seno))
+cosseno = math.cos (math.radians(angulo))
+print(' O �ngulo de {} tem o cosseno de {:.2f} '.format(angulo, cosseno))
+tangente = math.tan(math.radians(angulo))
+print(' O �ngulo de {} tem a tangente de {:.2f} '.format(angulo, tangente))
+============================================================================
+Desafio 019
+============================================================================
+ import random
+n1 = str(input(' Primeiro aluno: '))
+n2 = str(input(' Segundo aluno: '))
+n3 = str(input(' Terceiro aluno: '))
+n4 = str(input(' Quarto aluno: '))
+lista = [n1, n2, n3, n4]
+escolhido = random.choice(lista)
+print(' O aluno escolhido foi {} '.format(escolhido))
+============================================================================
+Desafio 020
+============================================================================
+import random
+aluno1 = str(input(' Primeiro aluno: '))
+aluno2 = str(input(' Segundo aluno: '))
+aluno3 = str(inp�t(' Terceiro aluno: '))
+aluno4 = str(input(' Quarto aluno: '))
+lista = [aluno1, aluno2, aluno3, aluno4]
+random.shuffle(lista)
+print(' A ordem de apresenta��o ser� ')
+print(lista)
+============================================================================
+Desafio 021
+============================================================================
+--------------------------------------------------------
+#import pygame
+pygame.init()
+pygame.mixer.music.load('desafio021.mp3')
+pygame.mixer.music.play()
+pygame.event.wait()
+----------------------------------------------------------
+import playsound
+playsound.playsound('desafio021.mp3')
+============================================================================
+Desafio 022
+============================================================================

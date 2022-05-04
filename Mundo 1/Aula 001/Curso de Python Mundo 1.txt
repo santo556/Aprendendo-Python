@@ -1,0 +1,13 @@
+PRIMEIROS PASSOS EM PYTHON
+			 Aula 001
+      ==> Exemplo 1
+             => nome = ('Guanabara')
+	     =>	idade = 25
+ 	     => peso = 75.8
+	     => print(nome, idade, peso)
+		guanabara 25 75.8
+      ==> Exemplo 2
+  	     =>nome = input('Qual é seu nome? ')
+             =>idade = input('Qantos anos você tem? ')
+             =>peso = input('Quanto você pesa? ')
+             =>print(nome, idade, peso)

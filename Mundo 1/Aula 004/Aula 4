@@ -1,0 +1,15 @@
+* Fase 4
+Curso de Python #04 - Primeiros comandos em Python3
+
+Primeiros Comandos em Python3
+    Teoria:
+        print('Olá, Mundo! ') => messagens
+        print(7 + 4 ) => soma
+    Prática:
+        print('7' + '4') => 74
+        7 + 4 => 74
+        print('Olá' + 5) => erro
+        print('Olá' , 5)
+----------------------------------------------
+"Para o Python toda variável é um objeto"
+    
