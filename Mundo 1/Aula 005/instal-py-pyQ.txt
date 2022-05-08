@@ -1,0 +1,5 @@
+A aula 5 foi apenas de instalação mas muito
+valiosa nessa aula foi insinado baixar e instalar
+uma IDE o Pycharm no Linux, MacOS e Windows e 
+também foi insinado a instalar o QPython3 no An-
+droide.

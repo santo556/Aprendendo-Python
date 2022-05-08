@@ -1,0 +1,6 @@
+print('*********************************************************')
+print('Deixando tudo pronto ')
+nome = input('Qual é seu nome? ')
+print('Muito prazer em te conhecer {}! '.format(nome))
+print('Seja muito bem-vindo(a) ao maravilho mundo da programação.')
+print('**********************************************************')
