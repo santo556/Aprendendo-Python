@@ -1,16 +1,17 @@
- 			Aula 007
-	Operadores Aritméticos
-==> + Adição
-==> - Subtração
-==> * Multiplicação
-==> / Divisão
-==> ** Potência
-==> // Divisão Inteira
-==> % Resto da Divisão
+Curso Python #07 - Operadores Aritméticos
+------------------------------------------------------------------------
+	Os operadores aritméticos são:
+		==> + Adição
+		==> - Subtração
+		==> * Multiplicação
+		==> / Divisão
+		==> ** Potência
+		==> // Divisão Inteira
+		==> % Resto da Divisão
 -------------------------------------------------------------------------------------------------------------------------------
 	1 - EXEMPO:
 		==> 5 + 2 == 7
-		==> 5 - 2 == 5
+		==> 5 - 2 == 3
 		==> 5 * 2 == 10
 		==> 5 / 2 == 2.5
 		==> 5 ** 2 == 25
